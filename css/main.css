@@ -1,0 +1,66 @@
+.horizontal-line {
+    background-color: #dadada;
+    height: 3px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    font-family: "微软雅黑","Tahoma",'Arial',"宋体";
+    font-size: 14px;
+    color: #595959;
+}
+
+
+.navbar-brand {
+    float: none;
+}
+
+@media (min-width: 768px){
+    .navbar-nav {
+        float: right;
+        margin-top: 20px;
+    }    
+}
+
+
+section.what-we-do {
+padding: 40px 0;
+text-align: center;
+}
+
+.section-title {
+    width: 260px;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+}
+
+@media (min-width: 768px){
+    .section-title {
+        width: 600px;
+        font-size: 22px;
+    }
+    
+    .section-title:before {
+    width: 600px;
+}
+
+.section-title:before {
+content: "";
+display: block;
+border-top: solid 1px #333;
+height: 1px;
+position: absolute;
+margin-top: 14px;
+z-index: 1;
+width: 260px;
+}
+
+.section-title span {
+background: #fff;
+padding: 0 20px;
+position: relative;
+z-index: 5;
+}
