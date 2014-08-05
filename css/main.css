@@ -10,8 +10,8 @@ body {
     font-family: "微软雅黑","Tahoma",'Arial',"宋体";
     font-size: 14px;
     color: #595959;
+    min-width: 768px !important;    
 }
-
 
 .navbar-brand {
     float: none;
@@ -24,6 +24,17 @@ body {
     }    
 }
 
+.navbar {
+    margin-bottom: 5px;
+}
+
+#top .nav > li.active {
+    background-color: #0C65B3;    
+}
+
+#top .nav > li.active > a{
+    color: #FFF;
+}
 
 section.what-we-do {
 padding: 40px 0;
@@ -63,4 +74,79 @@ background: #fff;
 padding: 0 20px;
 position: relative;
 z-index: 5;
+}
+
+.intro-block > h2 {
+    border-bottom: 2px solid #52ac26;
+    color: #0765b3;
+    padding-bottom: 4px;
+}
+
+.intro-block > h2 .glyphicon {
+    top: 3px;
+    margin-right: 10px;
+    color: #52ac26;    
+}
+
+#products {
+    margin-bottom: 20px;
+}
+
+#products .product-intro {
+/*    height: 200px;
+*/}
+
+#products .product-intro > h3 {
+    
+}
+
+#products .product-intro > h3 .glyphicon {
+    top: 4px;
+    margin-right: 12px;
+    color: #52ac26; 
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+#myCarousel .carousel-caption {
+padding-bottom: 120px;
+}
+
+
+/*footer*/
+
+#footer{
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+
+#copy-right, #contact{
+    text-align: center;
 }
